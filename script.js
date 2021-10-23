@@ -24,7 +24,7 @@ function reset(){
     const box = document.querySelector(".container");
     box.innerHTML=""
     let n = prompt("enter grid size");
-    console.log(n)
+    if(n=='') n=16;
     creategrid(n);
 }
 
